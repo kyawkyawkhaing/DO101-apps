@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
   
-   response = 'this is version 2 of the app.' + '\n'; 
+   response = 'this is version 2.1 of the app.' + '\n'; 
   res.send(response);
 });
 
